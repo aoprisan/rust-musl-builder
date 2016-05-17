@@ -1,5 +1,5 @@
 # Use Debian 8.0 "Jessie" as the base for our Rust musl toolchain.
-FROM debian:jessie
+FROM i686:ubuntu
 
 # Make sure we have basic dev tools for building C libraries.  Our goal
 # here is to support the musl-libc builds and Cargo builds needed for a
